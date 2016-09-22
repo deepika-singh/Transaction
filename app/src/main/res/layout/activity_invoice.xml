@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepika_singh.transaction.invoice">
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="Single Payment"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="16dp"
+        android:background="#EF5350"
+        android:onClick="singlepay" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="Split Payment"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:textSize="16dp"
+        android:background="#EF5350"
+        android:onClick="splitpay" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView9"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_above="@+id/button2"
+        android:background="@drawable/invoice" />
+</RelativeLayout>

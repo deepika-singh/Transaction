@@ -314,13 +314,10 @@
         android:layout_height="40dp"
         android:text="Make Payment"
         android:id="@+id/button"
-        android:layout_below="@+id/imageView6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
         android:background="#EF5350"
         android:textColor="#ffffff"
         android:onClick="Success"
-        android:layout_marginTop="10dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

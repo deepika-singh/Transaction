@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Transaction</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="list_items">
+        <item>Samsung tv</item>
+        <item>iPhone</item>
+        <item>Voltas Ac</item>
+        <item>Whirlpool Refrigerator</item>
+    </string-array>
+    <string-array name="list_price">
+        <item>70,000/-</item>
+        <item>63,000/-</item>
+        <item>50,000/-</item>
+        <item>1,00000/-</item>
+    </string-array>
 </resources>
